@@ -3,7 +3,7 @@
 
 ### Disclaimer
 
-This code has been develped by a project group at [Cognitive and Systems Neuroscience Lab(CSNL)](https://www.snu-csnl.com/), [Seoul National University](https://en.snu.ac.kr/). It was originally based on the public code provided by [`Masse *et al.*, 2019, Nature Neuroscience`](https://github.com/nmasse/Short-term-plasticity-RNN). 
+This code has been develped in a [separate directory](https://github.com/CSNLstudy/det_rnn) by a project group at [Cognitive and Systems Neuroscience Lab(CSNL)](https://www.snu-csnl.com/), [Seoul National University](https://en.snu.ac.kr/). It was originally based on the public code provided by [`Masse *et al.*, 2019, Nature Neuroscience`](https://github.com/nmasse/Short-term-plasticity-RNN). 
 
 ### How to run
 
