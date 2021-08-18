@@ -67,7 +67,8 @@ par = {
 	# stimulus encoding/response decoding type
 	'stim_encoding'	    : 'single', # 'single', 'double'
 	'resp_decoding'	    : 'disc',   # 'conti', 'disc', 'onehot'
-	'noise_sd'          : 0.1,      # noise level of stimulus input
+	'noise_sd'          : 0.05,     # noise level of the overall input
+	'noise_sd_stim'     : 0.1,      # noise level of stimulus input
 
 	# Tuning function data
 	'strength_input'    : 0.8,  # magnitutde scaling factor for von Mises

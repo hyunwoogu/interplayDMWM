@@ -35,3 +35,8 @@ train/
 analysis/
 	inspect_behav.py
 ```
+
+### Contributors
+
+(Alphabetic order of surnames) 
+[Hyunwoo Gu](https://github.com/hyunwoogu/)(SNU), [Heeseung Lee](https://github.com/Heeseung-Lee)(SNU), [Hyang-Jung Lee](https://github.com/hyangjung-lee)(SNU), [Jaeseob Lim](https://github.com/jaeseob)(SNU), [Jun Hwan (Joshua) Ryu](https://github.com/joshryu0425)(Stanford)

@@ -43,6 +43,8 @@ class Stimulus(object):
             neural_input2[self.design_rg['stim'],t,self.n_rule_input:] += self.tuning_input[:,0,stimulus['stimulus_ori'][t]].reshape((1,-1))
             neural_input1[:,t,self.n_rule_input+(stimulus['stimulus_ori'][t]+stimulus['reference_ori'][t])%self.n_ori] += self.strength_ref
 
+        neural_input2[self.design_rg['stim'],:,self.n_rule_input:] += random.standard_normal(size=(len(self.design_rg['stim']), self.batch_size, self.n_input))*self.noise_sd_stim*np.sqrt(2*self.tau/self.dt)
+
         return neural_input1, neural_input2
 
     def _gen_output(self, stimulus):
